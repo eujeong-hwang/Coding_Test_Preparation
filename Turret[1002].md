@@ -29,14 +29,14 @@ for _ in range(n):
 
 ## 예제 풀이
 
-#### x1: 0, x2: 0, r1: 13
-#### y1: 40, y2: 0, r2: 37 
+#### x1 = 0, x2 = 0, r1 = 13
+#### y1 = 40, y2 = 0, r2 = 37 
 ![KakaoTalk_20211207_193030521](https://user-images.githubusercontent.com/59908525/145014551-ad2ea01e-9288-4d85-827d-2b01aa8117f2.jpg)
 
-#### x1: 0, x2: 0, r1: 3
-#### y1: 0, y2: 7, r2: 4 
+#### x1 = 0, x2 = 0, r1 = 3
+#### y1 = 0, y2 = 7, r2 = 4 
 ![KakaoTalk_20211207_193030521_01](https://user-images.githubusercontent.com/59908525/145014557-c6815c24-912c-413e-8804-b9644668c5a7.jpg)
 
-#### x1: 1, x2: 1, r1: 1
-#### y1: 1, y2: 1, r2: 5 
+#### x1 = 1, x2 = 1, r1 = 1
+#### y1 = 1, y2 = 1, r2 = 5 
 ![KakaoTalk_20211207_193030521_02](https://user-images.githubusercontent.com/59908525/145014567-952f9773-0e56-4a62-baf7-e79d1232c2a3.jpg)
