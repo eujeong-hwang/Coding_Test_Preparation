@@ -1,6 +1,6 @@
 # 백준 4948번 문제
 
-[1002번: 터렛](https://www.acmicpc.net/problem/4948)
+[1002번: 베르트랑 공준](https://www.acmicpc.net/problem/4948)
 
 ## 코드
 ```

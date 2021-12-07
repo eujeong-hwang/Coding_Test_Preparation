@@ -1,6 +1,6 @@
 # 백준 10250번 문제
 
-[1002번: 터렛](https://www.acmicpc.net/problem/10250)
+[1002번: ACM 호텔](https://www.acmicpc.net/problem/10250)
 
 ## 코드
 ```
