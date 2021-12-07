@@ -48,6 +48,6 @@ while(1):
 ```
 
 ## 예제 입력
-<img width="545" alt="베르트랑" src="https://user-images.githubusercontent.com/59908525/145071687-4208c2ab-76e0-410c-a7bf-8393b80fa85d.PNG">
+<img width="900" alt="베르트랑" src="https://user-images.githubusercontent.com/59908525/145071687-4208c2ab-76e0-410c-a7bf-8393b80fa85d.PNG">
 
 ## 예제 풀이
