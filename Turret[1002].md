@@ -25,7 +25,7 @@ for _ in range(n):
 ```
 
 ## 예제 입력
-<img width="611" alt="turret예제" src="https://user-images.githubusercontent.com/59908525/145014725-aee4c831-2cfb-4a4a-ae16-46f45f58801b.PNG">
+<img width="900" alt="turret예제" src="https://user-images.githubusercontent.com/59908525/145014725-aee4c831-2cfb-4a4a-ae16-46f45f58801b.PNG">
 
 ## 예제 풀이
 
