@@ -20,6 +20,6 @@ for i in range(t):
 ```
 
 ## 예제 입력
-<img width="554" alt="ACM예제" src="https://user-images.githubusercontent.com/59908525/145070962-17b1a421-51c5-48e9-86a6-19ba2693e267.PNG">
+<img width="800" alt="ACM예제" src="https://user-images.githubusercontent.com/59908525/145070962-17b1a421-51c5-48e9-86a6-19ba2693e267.PNG">
 
 ## 예제 풀이
