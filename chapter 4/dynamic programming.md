@@ -9,10 +9,10 @@
 
 # Divide & Conquer Algorithm vs. Dynamic Programming
 
-- Divide and Conquer Algorithm
+- Divide and Conquer Algorithm <br/>
     Divide and conquer algorithms partition the problem into independent sub-problems to solve the sub-problems recursively and then combine their solutions to solve the original problem.
 
-- Dynamic Programming
+- Dynamic Programming <br/>
     Dynamic programming is applicable when the sub-problem is not independent, that is when sub-problems share sub-problems. Therefore, a dynamic programming algorithm solves every sub-problem just once and then saves its answers in a table, thereby avoiding the work of recomputing the answer every time the subproblem is encountered. Dynamic programming has an extra step compared to Divide & Conquer Algorithm, which is MEMOISATION. 
 
 <br>
@@ -27,5 +27,5 @@ In Dynamic Programming we store the solution to the problem so we do not need to
 
 
 # Reference
-https://favtutor.com/blogs/dynamic-programming
+https://favtutor.com/blogs/dynamic-programming <br/>
 https://skerritt.blog/dynamic-programming/
