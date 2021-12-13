@@ -17,9 +17,11 @@
 
 <br>
 
-# Memoisation
+# Memoisation(or Memoization)
 
-In Dynamic Programming we store the solution to the problem so we do not need to recalculate it. By finding the solutions for every single sub-problem, we can tackle the original problem itself. And we call it "Memoisation", in this case, the act of storing a solution. 
+- In Dynamic Programming we store the solution to the problem so we do not need to recalculate it. By finding the solutions for every single sub-problem, we can tackle the original problem itself. And we call it "Memoisation", in this case, the act of storing a solution. 
+
+-  Memoization or Memoisation is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
 
 <br>
 
