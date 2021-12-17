@@ -1,10 +1,10 @@
 # DFS & BFS의 설명과 차이점
 
-DFS(깊이 우선 탐색) 와 BFS(너비 우선 탐색)은 그래프를 탐색하는 방법이다. 
+DFS(깊이 우선 탐색) 와 BFS(너비 우선 탐색)은 그래프를 탐색하는 방법이다. <br/>
 
 # 그래프란? 
 Node(정점)과 그 정점을 연결하는 Edge(간선)으로 이루어진 자료구조의 일종이며, 
-그래프를 탐색한다는 것은 하나의 정점으로부터 시작하여 차례대로 모든 정점들을 한 번씩 방문하는 것을 말한다.
+그래프를 탐색한다는 것은 하나의 정점으로부터 시작하여 차례대로 모든 정점들을 한 번씩 방문하는 것을 말한다. <br/>
 
 
 # 그래프와 트리의 차이
@@ -51,8 +51,9 @@ Node(정점)과 그 정점을 연결하는 Edge(간선)으로 이루어진 자�
 <br>
 
 # DFS와 BFS의 차이점
-![R1280x0-3](https://user-images.githubusercontent.com/59908525/146522217-0373fb29-74f7-4ada-b516-8fd9e4bed034.gif)
-<img width="322" alt="캡처" src="https://user-images.githubusercontent.com/59908525/146522221-9e083ce7-093d-4d6a-87e4-ffc1bb30eec4.PNG">
+![R1280x0-3](https://user-images.githubusercontent.com/59908525/146522217-0373fb29-74f7-4ada-b516-8fd9e4bed034.gif) <br/>
+
+<img width="800" alt="캡처" src="https://user-images.githubusercontent.com/59908525/146522221-9e083ce7-093d-4d6a-87e4-ffc1bb30eec4.PNG">
 
 # 시간 복잡도
 
