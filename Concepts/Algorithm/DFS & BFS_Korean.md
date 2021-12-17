@@ -1,15 +1,19 @@
 # DFS & BFS의 설명과 차이점
 
-DFS(깊이 우선 탐색) 와 BFS(너비 우선 탐색)은 그래프를 탐색하는 방법이다. <br/>
+DFS(깊이 우선 탐색) 와 BFS(너비 우선 탐색)은 그래프를 탐색하는 방법이다. 
+
+<br>
 
 # 그래프란? 
 Node(정점)과 그 정점을 연결하는 Edge(간선)으로 이루어진 자료구조의 일종이며, 
-그래프를 탐색한다는 것은 하나의 정점으로부터 시작하여 차례대로 모든 정점들을 한 번씩 방문하는 것을 말한다. <br/>
+그래프를 탐색한다는 것은 하나의 정점으로부터 시작하여 차례대로 모든 정점들을 한 번씩 방문하는 것을 말한다. 
 
+<br>
 
 # 그래프와 트리의 차이
 <img width="560" alt="그래프와 트리의 차이" src="https://user-images.githubusercontent.com/59908525/146516938-6e24045d-f153-4866-baf4-76288c57dfa7.PNG">
 
+<br>
 
 # Depth-First Search (DFS): 깊이 우선 탐색
 
@@ -55,6 +59,8 @@ Node(정점)과 그 정점을 연결하는 Edge(간선)으로 이루어진 자�
 
 <img width="800" alt="캡처" src="https://user-images.githubusercontent.com/59908525/146522221-9e083ce7-093d-4d6a-87e4-ffc1bb30eec4.PNG">
 
+<br>
+
 # 시간 복잡도
 
 두 방식 모두 조건 내의 모든 노드를 검색한다는 점에서 시간 복잡도는 동일합니다.
@@ -73,6 +79,8 @@ DFS와 BFS 둘 다 다음 노드가 방문하였는지를 확인하는 시간과
 2. BFS
 
 - BFS 알고리즘은 큐(Queue)를 사용해서 문제를 해결하면 됩니다.
+
+<br>
 
 # Reference
 https://devuna.tistory.com/32 <br/>
