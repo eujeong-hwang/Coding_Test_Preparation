@@ -48,6 +48,15 @@ https://github.com/eujeong-hwang/Coding_Test_Preparation/blob/main/Concepts/Data
 
 - The code
 ```
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hashmap = {}
+        for i in range(len(nums)):
+            hashmap[nums[i]] = i
+        for i in range(len(nums)):
+            complement = target - nums[i]
+            if complement in hashmap and hashmap[complement] != i:
+                return [i, hashmap[complement]] 
 ```
 
 - Time Complexity : O(n^2)
