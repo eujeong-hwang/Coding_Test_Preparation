@@ -9,6 +9,10 @@ https://leetcode.com/problems/add-two-numbers/
 
 ## Solution - Using Python (Not Python3)
 
+- What is Linked List?
+
+https://github.com/eujeong-hwang/Coding_Test_Preparation/blob/main/Concepts/Data%20Structure/Linked%20List.md
+
 ## First Solution: Using Singly Linked-List
 
 ```
@@ -18,26 +22,35 @@ https://leetcode.com/problems/add-two-numbers/
 #         self.val = val
 #         self.next = next
 class Solution(object):
-    def addTwoNumbers(self, l1, l2):
-        """
-        :type l1: ListNode
-        :type l2: ListNode
-        :rtype: ListNode
-        """
-        result = ListNode(0)
-        result_tail = result
-        carry = 0
-                
-        while l1 or l2 or carry:            
-            val1  = (l1.val if l1 else 0)
-            val2  = (l2.val if l2 else 0)
-            carry, out = divmod(val1+val2 + carry, 10)    
-                      
-            result_tail.next = ListNode(out)
-            result_tail = result_tail.next                      
-            
-            l1 = (l1.next if l1 else None)
-            l2 = (l2.next if l2 else None)
-               
-        return result.next
+  def addTwoNumbers(self, l1, l2):
+        carry = 0;
+        res = n = ListNode(0);
+        while l1 or l2 or carry:
+            if l1:
+                carry += l1.val
+                l1 = l1.next;
+            if l2:
+                carry += l2.val;
+                l2 = l2.next;
+            carry, val = divmod(carry, 10)
+            n.next = n = ListNode(val);
+        return res.next;
+```
+
+## Something I learned while solving this problem
+- Ternary conditional operator
+
+First, condition is evaluated, then if condition evaluated to true, then a is returned, 
+or else, b is returned
+
+```
+a if condition else b
+```
+
+- divmod()
+
+The divmod() method takes two numbers and returns a pair of numbers (a tuple) consisting of their quotient and remainder.
+
+```
+divmod(x, y)
 ```
