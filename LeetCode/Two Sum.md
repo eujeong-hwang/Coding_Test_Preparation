@@ -36,7 +36,24 @@ class Solution:
 
     The space required does not depend on the size of the input array, so only constant space is used.
 
-<br><br>
+<br>
 
 ## Second Solution: Two-Pass Hash Table
 
+- What is Hash Table?
+
+Link: 
+https://github.com/eujeong-hwang/Coding_Test_Preparation/blob/main/Concepts/Data%20Structure/Hash%20Table.md
+
+
+- The code
+```
+```
+
+- Time Complexity : O(n^2)
+
+    For each element, we try to find its complement by looping through the rest of the array which takes O(n) time.
+
+- Space Complexity: O(1)
+
+    The space required does not depend on the size of the input array, so only constant space is used.
