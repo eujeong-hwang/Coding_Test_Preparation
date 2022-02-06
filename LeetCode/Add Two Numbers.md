@@ -17,10 +17,11 @@ https://github.com/eujeong-hwang/Coding_Test_Preparation/blob/main/Concepts/Data
 
 ```
 # Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+class ListNode(object):
+     def __init__(self, val=0, next=None):
+         self.val = val
+         self.next = next
+
 class Solution(object):
   def addTwoNumbers(self, l1, l2):
         carry = 0;
@@ -51,6 +52,11 @@ a if condition else b
 
 The divmod() method takes two numbers and returns a pair of numbers (a tuple) consisting of their quotient and remainder.
 
+If x and y are integers, the return value from divmod() is same as (a // b, x % y).
+
 ```
 divmod(x, y)
 ```
+
+## Reference
+https://www.youtube.com/watch?v=wgFPrzTjm7s
