@@ -2,6 +2,10 @@
 ## Question - 1. Two Sum
 https://leetcode.com/problems/two-sum/solution/
 
+## Related Topics
+    Array
+    Hash Table
+
 ## Solution - Using Python3
 
 - What is the difference between Python vs. Python3?
