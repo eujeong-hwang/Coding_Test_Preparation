@@ -11,11 +11,11 @@ https://leetcode.com/problems/two-sum/solution/
 
 - What is Brute Force Algorithm? 
 
-Trying all possible candidate solutions until the correct solution to the problem is found.
+    Trying all possible candidate solutions until the correct solution to the problem is found.
 
 - How to solve this question using Brute Force Algorithm?
 
-Loop through each element "x" and find if there is another value that equals to "target-x"
+    Loop through each element "x" and find if there is another value that equals to "target-x"
 
 - The code
 ```
@@ -29,8 +29,8 @@ class Solution:
 
 - Time Complexity : O(n^2)
 
-For each element, we try to find its complement by looping through the rest of the array which takes O(n) time.
+    For each element, we try to find its complement by looping through the rest of the array which takes O(n) time.
 
 - Space Complexity: O(1)
 
-The space required does not depend on the size of the input array, so only constant space is used.
+    The space required does not depend on the size of the input array, so only constant space is used.
