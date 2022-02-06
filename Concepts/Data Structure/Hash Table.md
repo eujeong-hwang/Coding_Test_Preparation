@@ -16,7 +16,6 @@
 
 ## How to access values in Dictionary? 
 
-    ```
     # Declare a dictionary 
     dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 
@@ -27,11 +26,10 @@
     # Output
     dict['Name']:  Zara
     dict['Age']:  7
-    ```
+
 
 ## How to update values in Dictionary?
 
-    ```
     # Declare a dictionary
     dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
     dict['Age'] = 8; # update existing entry
@@ -42,16 +40,14 @@
     # Output
     dict['Age']:  8
     dict['School']:  DPS School
-    ```
+
 
 ## How to delete values in Dictionary?
 
-    ```
     dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
     del dict['Name']; # remove entry with key 'Name'
     dict.clear();     # remove all entries in dict
     del dict ;        # delete entire dictionary
-
     print "dict['Age']: ", dict['Age']
     print "dict['School']: ", dict['School']
 
@@ -61,4 +57,3 @@
         File "test.py", line 8, in <module>
             print "dict['Age']: ", dict['Age'];
     TypeError: 'type' object is unsubscriptable
-    ```
