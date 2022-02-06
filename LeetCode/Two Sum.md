@@ -8,7 +8,7 @@ https://leetcode.com/problems/two-sum/solution/
 
     Python 3 is more in-demand and includes a typing system. Python 2 is outdated and uses an older syntax for the print function. While Python 2 is still in use for configuration management in DevOps, Python 3 is the current standard.
 
-### 1. Brute Force Algorithm
+## First Solution: Brute Force Algorithm
 
 - What is Brute Force Algorithm? 
 
@@ -38,5 +38,5 @@ class Solution:
 
 <br><br>
 
-### 2. Two-Pass Hash Table
+## Second Solution: Two-Pass Hash Table
 
