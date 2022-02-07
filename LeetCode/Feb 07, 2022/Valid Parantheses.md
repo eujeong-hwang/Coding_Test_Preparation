@@ -41,3 +41,14 @@ class Solution(object):
     - pop()
 
 Reference: https://www.geeksforgeeks.org/stack-in-python/
+
+
+## What I learned 
+
+1. 
+```
+stack = [1, 3, 5, 6, 1]
+# x[-1] returns the last element of the list
+stack[-1] = 1
+stack[-2] = 6
+```
