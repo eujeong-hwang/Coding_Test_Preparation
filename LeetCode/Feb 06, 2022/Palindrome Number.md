@@ -36,10 +36,12 @@ class Solution(object):
 
 ## str(x)[::-1]
 
-1. str(x) --> string function
+1. 
+```
+str(x) --> string function
+```
 
-2. Example)
-
+2. 
 ```
 a = '1234'
 a[::-1]
