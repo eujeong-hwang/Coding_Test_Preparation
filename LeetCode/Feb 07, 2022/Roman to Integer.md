@@ -45,4 +45,4 @@ Output: II
 
 3. Debugging Process
 
-<img width="805" alt="debugRomanToInt" src="https://user-images.githubusercontent.com/59908525/152785058-33157851-fb71-4212-ad19-d3c123a41a3a.PNG">
+<img width="900" alt="debugRomanToInt" src="https://user-images.githubusercontent.com/59908525/152785058-33157851-fb71-4212-ad19-d3c123a41a3a.PNG">
