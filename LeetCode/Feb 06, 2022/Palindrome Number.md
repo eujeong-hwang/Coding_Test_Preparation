@@ -36,7 +36,9 @@ class Solution(object):
 
 ## str(x)[::-1]
 
-Example)
+1. str(x) --> string function
+
+2. Example)
 
 ```
 a = '1234'

@@ -62,11 +62,3 @@ class Solution:
             if complement in hashmap and hashmap[complement] != i:
                 return [i, hashmap[complement]] 
 ```
-
-- Time Complexity : O(n^2)
-
-    For each element, we try to find its complement by looping through the rest of the array which takes O(n) time.
-
-- Space Complexity: O(1)
-
-    The space required does not depend on the size of the input array, so only constant space is used.
