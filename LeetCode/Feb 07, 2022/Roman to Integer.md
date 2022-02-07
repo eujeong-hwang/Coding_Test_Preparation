@@ -30,7 +30,10 @@ class Solution(object):
 
 ## Something I learned from this problem
 
-1. If s = "III", because it is a String, len(s) = 3.
+1. 
+```
+If s = "III", because it is a String, len(s) = 3.
+```
 
 2. 
 ```
