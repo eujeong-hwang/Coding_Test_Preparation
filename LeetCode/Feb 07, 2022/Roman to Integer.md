@@ -1,5 +1,5 @@
 # Feb 07, 2022
-## Question - 9. Palindrome Number
+## Question - 13. Roman to Integer
 https://leetcode.com/problems/roman-to-integer/
 
 ## Related Topics
@@ -31,3 +31,12 @@ class Solution(object):
 ## Something I learned from this problem
 
 1. If s = "III", because it is a String, len(s) = 3.
+
+2. 
+```
+s = "III"
+print(s[0] + s[1])
+
+Output: II
+```
+
