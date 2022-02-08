@@ -111,8 +111,46 @@ Postorder traversal of binary tree is
 
 https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 
-## Solution - Using Python (Not Python3)
+## Solution 1 - Iteratively - Using Python3
 
 ```
+class Solution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        stack = [root]
+        answer = []
+        
+        while stack :
+            node = stack.pop()
+            if node :
+                stack.append(node.right)
+                stack.append(node)
+                stack.append(node.left)
+            else :
+                if stack :
+                    node = stack.pop()
+                    answer.append(node.val)
+                    
+        return answer
+```
+## Solution 2
 
 ```
+class Solution:
+def inorderTraversal(self, root: TreeNode) -> List[int]:
+
+    tree_vals = []
+    
+    def inorder(tree):
+        
+        if tree:
+            
+            inorder(tree.left)
+            tree_vals.append(tree.val)
+            inorder(tree.right)
+            
+    inorder(root)
+    
+    return tree_vals
+    ```
+
+
