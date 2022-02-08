@@ -10,7 +10,8 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/
 
 ## What is Binary Tree Traversals (Inorder, Preorder and Postoder)
 
-    Unlike linear data structures (Array, Linked List, Queues, Stacks, etc) which have only one logical way to traverse them, trees can be traversed in different ways. Following are the generally used ways for traversing trees.
+    Unlike linear data structures (Array, Linked List, Queues, Stacks, etc) which have only one logical way to traverse them, 
+    trees can be traversed in different ways. Following are the generally used ways for traversing trees.
 
 <img width="800" alt="Binary Tree" src="https://user-images.githubusercontent.com/59908525/152982809-3b5f66ec-324e-4544-b72f-3a87267d4e22.PNG">
 
