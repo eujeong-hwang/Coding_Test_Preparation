@@ -151,6 +151,6 @@ def inorderTraversal(self, root: TreeNode) -> List[int]:
     inorder(root)
     
     return tree_vals
-    ```
+```
 
 
