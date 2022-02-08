@@ -77,10 +77,6 @@ class Solution:
         return self.rtn
 
     def helper(self, node):
-        """
-        Recursive preorder traversal method
-        """
-        # Visit the node first
         self.rtn.append(node.val)
         # Then traverse left child
         if node.left:
