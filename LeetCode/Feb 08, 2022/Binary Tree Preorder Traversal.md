@@ -28,21 +28,64 @@ https://leetcode.com/problems/binary-tree-preorder-traversal/
 ## Solution 1 - Iteratively - Using Python3
 
 ```
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution(object):
+    def preorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        if root is None:
+            return []
+
+        S = [root]
+        rtn = []
+        while S:
+            N = S.pop()
+            # Visit the node first
+            rtn.append(N.val)
+            # Push right child first which will be traversed last
+            if N.right:
+                S.append(N.right)
+            # Then push left child which will be traverse earlier
+            if N.left:
+                S.append(N.left)
+
+        return rtn
+```
+
+## Solution 2 - Recursive - Using Python3
+
+```
 class Solution:
-    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        stack = [root]
-        answer = []
-        
-        while stack :
-            node = stack.pop()
-            if node :
-                stack.append(node.right)
-                stack.append(node)
-                stack.append(node.left)
-            else :
-                if stack :
-                    node = stack.pop()
-                    answer.append(node.val)
-                    
-        return answer
+    def preorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        if root is None:
+            return []
+
+        self.rtn = []
+        self.helper(root)
+        return self.rtn
+
+    def helper(self, node):
+        """
+        Recursive preorder traversal method
+        """
+        # Visit the node first
+        self.rtn.append(node.val)
+        # Then traverse left child
+        if node.left:
+            self.helper(node.left)
+        # Traverse right child at last
+        if node.right:
+            self.helper(node.right)
 ```

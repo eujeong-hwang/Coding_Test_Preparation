@@ -116,41 +116,37 @@ https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 ```
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        stack = [root]
-        answer = []
+        stack = []
+        output = []
         
-        while stack :
-            node = stack.pop()
-            if node :
-                stack.append(node.right)
-                stack.append(node)
-                stack.append(node.left)
-            else :
-                if stack :
-                    node = stack.pop()
-                    answer.append(node.val)
-                    
-        return answer
+        while stack or root:
+            if root:
+                stack.append(root)
+                root = root.left
+            else:
+                holder = stack.pop()
+                output.append(holder.val)
+                root = holder.right
+        
+        return output
 ```
-## Solution 2
+## Solution 2 : Recursive
 
 ```
 class Solution:
 def inorderTraversal(self, root: TreeNode) -> List[int]:
+    output= []
 
-    tree_vals = []
-    
-    def inorder(tree):
-        
-        if tree:
-            
-            inorder(tree.left)
-            tree_vals.append(tree.val)
-            inorder(tree.right)
-            
-    inorder(root)
-    
-    return tree_vals
+    def helper(node):
+        if not node:
+            return
+
+        helper(node.left)
+        output.append(node.val)
+        helper(node.right)
+
+    helper(root)
+    return output
 ```
 
 

@@ -30,21 +30,14 @@ https://leetcode.com/problems/binary-tree-postorder-traversal/
 
 ```
 class Solution:
-    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+    def PostorderTraversal(self, root: TreeNode) -> List[int]:
+        res = []
         stack = [root]
-        answer = []
-        
-        while stack :
+        while stack:
             node = stack.pop()
-            if node :
-                stack.append(node.right)
-                stack.append(node)
+            if node:
+                res.append(node.val)
                 stack.append(node.left)
-            else :
-                if stack :
-                    node = stack.pop()
-                    answer.append(node.val)
-                    
-        return answer
+                stack.append(node.right)
+        return res[::-1]
 ```
-
