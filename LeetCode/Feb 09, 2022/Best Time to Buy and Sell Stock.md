@@ -42,60 +42,62 @@ Solution.maxProfit(prices)
     The min() function returns the smallest of the input values.
 
 ```
-    # Example
-    >>> min("abcDEF") # find smallest item in the string
-    'D'
-    >>>
-    >>> 
-    >>> min([2, -1, 4, 3]) # find smallest item in the list
-    -1
-    >>> 
-    >>>
-    >>> min(("one", "two", "three")) # find smallest item in the tuple
-    'one'
-    >>> 
-    >>> 
-    >>> min({1: "one", 2: "two", 3: "three"}) # find smallest item in the dict
-    1
-    >>>
-    >>>
-    >>> min([]) # empty iterable causes ValueError
-    Traceback (most recent call last):
-    File "<stdin>", line 1, in <module>
-    ValueError: min() arg is an empty sequence
-    >>> 
-    >>> 
-    >>> min([], default=0) # supressing the error with default value
-    0
+# Example
+
+>>> min("abcDEF") # find smallest item in the string
+'D'
+>>>
+>>> 
+>>> min([2, -1, 4, 3]) # find smallest item in the list
+-1
+>>> 
+>>>
+>>> min(("one", "two", "three")) # find smallest item in the tuple
+'one'
+>>> 
+>>> 
+>>> min({1: "one", 2: "two", 3: "three"}) # find smallest item in the dict
+1
+>>>
+>>>
+>>> min([]) # empty iterable causes ValueError
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: min() arg is an empty sequence
+>>> 
+>>> 
+>>> min([], default=0) # supressing the error with default value
+0
 ```
 
 ## What I learned - max() function in Python
     The max() function returns the largest of the input values.
 
 ```
-    # Example
-    >>> max("abcDEF") # find largest item in the string
-    'c'
-    >>>
-    >>> 
-    >>> max([2, 1, 4, 3]) # find largest item in the list
-    4
-    >>> 
-    >>>
-    >>> max(("one", "two", "three")) # find largest item in the tuple
-    'two'
-    >>> 
-    >>> 
-    >>> max({1: "one", 2: "two", 3: "three"}) # find largest item in the dict
-    3
-    >>>
-    >>>
-    >>> max([]) # empty iterable causes ValueError
-    Traceback (most recent call last):
-    File "<stdin>", line 1, in <module>
-    ValueError: max() arg is an empty sequence
-    >>> 
-    >>> 
-    >>> max([], default=0) # supressing the error with default value
-    0
+# Example
+
+>>> max("abcDEF") # find largest item in the string
+'c'
+>>>
+>>> 
+>>> max([2, 1, 4, 3]) # find largest item in the list
+4
+>>> 
+>>>
+>>> max(("one", "two", "three")) # find largest item in the tuple
+'two'
+>>> 
+>>> 
+>>> max({1: "one", 2: "two", 3: "three"}) # find largest item in the dict
+3
+>>>
+>>>
+>>> max([]) # empty iterable causes ValueError
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: max() arg is an empty sequence
+>>> 
+>>> 
+>>> max([], default=0) # supressing the error with default value
+0
 ```
