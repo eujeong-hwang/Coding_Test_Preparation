@@ -41,7 +41,7 @@ Solution.maxProfit(prices)
 ## What I learned - min() function in Python
     The min() function returns the smallest of the input values.
 
-    ```
+```
     # Example
     >>> min("abcDEF") # find smallest item in the string
     'D'
@@ -67,12 +67,12 @@ Solution.maxProfit(prices)
     >>> 
     >>> min([], default=0) # supressing the error with default value
     0
-    ```
+```
 
 ## What I learned - max() function in Python
     The max() function returns the largest of the input values.
 
-    ```
+```
     # Example
     >>> max("abcDEF") # find largest item in the string
     'c'
@@ -98,4 +98,4 @@ Solution.maxProfit(prices)
     >>> 
     >>> max([], default=0) # supressing the error with default value
     0
-    ```
+```
