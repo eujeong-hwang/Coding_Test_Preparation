@@ -4,7 +4,7 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 ## Related Topics
     Array
-    Dyamic Programming
+    Dynamic Programming?
 
 ## Question
 
