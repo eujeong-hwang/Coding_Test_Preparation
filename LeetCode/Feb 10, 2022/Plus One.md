@@ -50,4 +50,26 @@ print(s.plusOne([1,2,3]))
 
 ## What I learned - Python map() function
 
+    The map() function executes a specified function for each item in an iterable. The item is sent to the function as a parameter.
+
+    # Syntax
+    map(function, iterables)
+
+    # Example
+
+    def myfunc(a, b):
+    return a + b
+
+    x = map(myfunc, ('apple', 'banana', 'cherry'), ('orange', 'lemon', 'pineapple'))
+
+    print(x)
+
+    # convert the map into a list, for readability:
+    print(list(x))
+
+    # Output
+    <map object at 0x034244F0>
+    ['appleorange', 'bananalemon', 'cherrypineapple']
+
+
 https://www.w3schools.com/python/ref_func_map.asp
