@@ -52,24 +52,52 @@ print(s.plusOne([1,2,3]))
 
     The map() function executes a specified function for each item in an iterable. The item is sent to the function as a parameter.
 
-    # Syntax
-    map(function, iterables)
+```
+# Syntax
+map(function, iterables)
+```
 
-    # Example
+```
+# Example
 
-    def myfunc(a, b):
-    return a + b
+def myfunc(a, b):
+return a + b
 
-    x = map(myfunc, ('apple', 'banana', 'cherry'), ('orange', 'lemon', 'pineapple'))
+x = map(myfunc, ('apple', 'banana', 'cherry'), ('orange', 'lemon', 'pineapple'))
 
-    print(x)
+print(x)
 
-    # convert the map into a list, for readability:
-    print(list(x))
+# convert the map into a list, for readability:
+print(list(x))
 
-    # Output
-    <map object at 0x034244F0>
-    ['appleorange', 'bananalemon', 'cherrypineapple']
-
+# Output
+<map object at 0x034244F0>
+['appleorange', 'bananalemon', 'cherrypineapple']
+```
 
 https://www.w3schools.com/python/ref_func_map.asp
+
+
+## What I learned - Python join() function
+    
+    The join() method takes all items in an iterable and joins them into one string.
+    A string must be specified as the separator.
+
+```
+# Syntax 
+string.join(iterable)
+```
+
+```
+# Example
+myTuple = ("John", "Peter", "Vicky")
+
+x = "#".join(myTuple)
+
+print(x)
+
+# Output
+John#Peter#Vicky
+```
+
+https://www.w3schools.com/python/ref_string_join.asp
