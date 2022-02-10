@@ -23,5 +23,31 @@ https://leetcode.com/problems/plus-one/
 
 ## Solution 1 
 ```
-
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        n = 0
+        s = len(digits) - 1
+        for i in digits:
+            n += i * 10 ** s
+            s -= 1
+        return list(str(n + 1))
 ```
+
+## Solution 2
+```
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+    
+        digits = list(map(str, digits))
+        nums = int(''.join(digits))
+        nums += 1
+        nums = list(str(nums))
+        return list(map(int, nums))
+
+s = Solution()
+print(s.plusOne([1,2,3]))
+```
+
+## What I learned - Python map() function
+
+https://www.w3schools.com/python/ref_func_map.asp
