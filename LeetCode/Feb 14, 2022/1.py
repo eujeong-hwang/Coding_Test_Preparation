@@ -8,7 +8,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
-class Solution:   p = [1, 2, 3, 4, 5],   q = [1, 2, 3]
+class Solution:  
     def isSameTree(self, p: int[TreeNode], q: int[TreeNode]) -> bool:
         def dfs(p,q): #([2],[2])
             # if p == None or q == None:
@@ -22,7 +22,5 @@ class Solution:   p = [1, 2, 3, 4, 5],   q = [1, 2, 3]
             return False
         
         return dfs(p,q)
-
-
 s = Solution()
 print(s.isSameTree([1,2,3], [1,2,3]))
