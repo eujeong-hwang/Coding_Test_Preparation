@@ -57,5 +57,5 @@ else:
 ```
 
 ### Debugging Process
-<img width="667" alt="debuggingggg" src="https://user-images.githubusercontent.com/59908525/153883873-29fde42d-b23b-4d07-bbb5-4fb44b2cf8e8.PNG">
+<img width="900" alt="debuggingggg" src="https://user-images.githubusercontent.com/59908525/153883873-29fde42d-b23b-4d07-bbb5-4fb44b2cf8e8.PNG">
 
