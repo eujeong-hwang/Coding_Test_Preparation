@@ -1,7 +1,7 @@
 class wth:
     def __init__(self, l):
         self.l = l
-        print("만들어진 dictionary: {0}".format(self.l))
+        print("Dictionary has been created: {0}".format(self.l))
 
     def diction(self, s):
         if s in self.l:
