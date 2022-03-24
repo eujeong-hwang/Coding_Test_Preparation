@@ -28,4 +28,22 @@ class Solution:
             # 17 = to19[17-1]
 
             if num <=99:
-                return 
+                return (tens[num//10-2] + " " + recursor(num%10)).rstrip()
+            # 78 = 70 + 8 = tens[num//10] + to19[num % 10]
+
+            if num <= 999:
+                return (recursor(num//100) + " Hundred " + recursor(num%100)).rstrip()
+
+            if num <=10**6-1:
+                return (recursor(num//1000) + " Thousand " + recursor(num%1000)).rstrip()
+
+            if num <= 10**9-1:
+                return (recursor(num//(10*6)) + " Million " + recursor(num%(10**6))).rstrip()
+
+            else:
+                return (recursor(num//(10**9)) + " Billion " + recursor(num%(10**9))).rstrip()
+
+        return recursor(num)
+
+wth = Solution()
+print(wth.numberToWords(78))
