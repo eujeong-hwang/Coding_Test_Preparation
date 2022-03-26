@@ -11,6 +11,7 @@ class Solution:
         if num == 0:
             return "Zero"
         
+        # to19 = 'One Two Three Four Five Six Seven Eight Nine Ten Eleven Twelve Thirteen Fourteen Fifteen Sixteen Seventeen Eighteen Nineteen'.split()
         to19 = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"]
         tens = 'Twenty Thirty Forty Fifty Sixty Seventy Eighty Ninety'.split()
 
@@ -45,5 +46,6 @@ class Solution:
 
         return recursor(num)
 
+hello = Solution()
 wth = Solution()
 print(wth.numberToWords(78))
