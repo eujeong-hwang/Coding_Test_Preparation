@@ -46,6 +46,5 @@ class Solution:
 
         return recursor(num)
 
-hello = Solution()
 wth = Solution()
-print(wth.numberToWords(78))
+print(wth.numberToWords(11111))
