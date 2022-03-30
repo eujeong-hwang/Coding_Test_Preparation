@@ -13,6 +13,7 @@
 # print(wth.twoSum([3,3], 6))
 
 # Using Hash Table
+# Runtime 위에 bruteforce 6972ms에서 89ms로 줄어듬 !
 from typing import List
 class Solution:
     def twoSum(self, nums:List[int], target: int) -> List[int]:
