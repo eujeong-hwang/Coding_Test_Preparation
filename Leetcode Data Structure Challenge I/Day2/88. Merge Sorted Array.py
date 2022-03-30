@@ -45,6 +45,11 @@ class Solution:
         if j>=0:
             nums1[:k+1]=nums2[:j+1]
 
+
+# Merge Sort
+#https://www.geeksforgeeks.org/merge-sort/
+
+
 # sort 관련되서 이거 한 번 해봄
 # from typing import List
 # class Solution:
