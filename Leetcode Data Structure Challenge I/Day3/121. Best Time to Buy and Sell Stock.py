@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
-# 더 빨리 하는 방법이 어딨을까..., DP 유튜브 좀 봐야겠다.. dp뭐임...divide and conquer도 좀 보고 구현 좀 해봐야겠다ㅠㅠㅠㅠ
+# 더 빨리 하는 방법이 어딨을까..., DP 유튜브 좀 봐야겠다.. dp뭐임...
+# divide and conquer도 좀 보고 구현 좀 해봐야겠다ㅠㅠㅠㅠ
 from typing import List
 class Solution():
     def maxProfit(self, prices:List[int])->int:
