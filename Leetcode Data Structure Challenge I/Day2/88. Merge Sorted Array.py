@@ -26,6 +26,7 @@ print(wth1.merge(nums1 = [1,2,3,0,0,0], m=3, nums2=[2,5,6], n=3))
 
 
 ## Two pointers를 이용한 답 - from the discussion
+## https://www.geeksforgeeks.org/two-pointers-technique/
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
