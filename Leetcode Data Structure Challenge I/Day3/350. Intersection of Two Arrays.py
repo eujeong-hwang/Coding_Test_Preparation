@@ -36,7 +36,7 @@ class Solution:
 # https://thepythonguru.com/python-builtin-functions/min/
 # 외우기    
 min("abcDEF") # find smallest item in the string
-'D' # 응?왜 D지?...
+'D' # 대문자가 소문자보다 작음 ~~ 
 
 min([2, -1, 4, 3]) # find smallest item in the list
 -1
