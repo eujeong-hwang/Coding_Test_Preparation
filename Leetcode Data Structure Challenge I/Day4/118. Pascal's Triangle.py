@@ -35,3 +35,13 @@ class Solution:
             for j in range(1,i):
                 l[i][j]=l[i-1][j-1]+l[i-1][j]
         return l
+
+
+# What I learned
+
+# [0]*numRows ->  [0] * x creates a list with x elements
+# For example
+ 
+[ 0 ] * 5
+# output
+[0, 0, 0, 0, 0]
