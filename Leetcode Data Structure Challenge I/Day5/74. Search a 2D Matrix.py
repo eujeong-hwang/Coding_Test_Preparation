@@ -20,3 +20,7 @@ class Solution:
 wth = Solution()
 print("1. ", wth.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 3))
 print("2. ", wth.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 13))
+
+#-----------------------------------------------------------------------------#
+# Binary Search
+# https://www.geeksforgeeks.org/python-program-for-binary-search/
