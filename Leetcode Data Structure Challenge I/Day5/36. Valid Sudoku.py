@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/valid-sudoku/
 
-# ****Set cannot have duplicates ***** -> This is the reason why we are using set as a defaultdict
+# ****Set cannot have duplicates ***** -> This is why we are using set as the defaultdict
 from collections import defaultdict
 from typing import List
 class Solution:
