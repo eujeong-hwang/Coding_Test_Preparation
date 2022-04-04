@@ -36,6 +36,8 @@ class Solution:
                 l[i][j]=l[i-1][j-1]+l[i-1][j]
         return l
 
+wth = Solution()
+print(wth.generate(5))
 
 # What I learned
 
