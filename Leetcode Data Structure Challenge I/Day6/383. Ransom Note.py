@@ -1,17 +1,19 @@
 # https://leetcode.com/problems/ransom-note/
 
-# from collections import Counter
-# class Solution:
-#     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-#         r = Counter(ransomNote)
-#         m = Counter(magazine)
+# 44ms
+# counter하고 union 이용
+from collections import Counter
+class Solution:
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        r = Counter(ransomNote)
+        m = Counter(magazine)
         
-#         return r&m == ransomNote
+        return r&m == r
 
-# wth = Solution()
-# print(wth.canConstruct('a', 'b'))
-# --> 이거 안됨. 왜냐하면
+wth = Solution()
+print(wth.canConstruct('aa', 'aab'))
 
+# set 이용함
 # class Solution:
 #     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
 #         a = set(ransomNote) 
