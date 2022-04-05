@@ -14,7 +14,7 @@ class Solution:
             if matrix[mid//m][mid%m] < target:
                 beg = mid + 1
             else:
-                end = mid
+                end = mid   
         return matrix[beg//m][beg%m] == target
 
 wth = Solution()
