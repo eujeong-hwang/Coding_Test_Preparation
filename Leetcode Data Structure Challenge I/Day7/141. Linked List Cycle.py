@@ -74,7 +74,7 @@ class Solution:
             head=head.next
         return False
 
-# 자꾸 이상하네 ㅠㅠㅋㅋㅋ linked list 프린트 어떻게 하즹......
+# ??다시해보기.
 # llist = Solution()
 # llist.head = ListNode(1)
 # e2 = ListNode(2)
