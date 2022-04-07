@@ -1,10 +1,32 @@
 # https://leetcode.com/problems/merge-two-sorted-lists/
 
 # Definition for singly-linked list.
+
+def print_ListNode(head):
+    while(True):
+        print(head.val)
+        if head.next is not None:
+            head = head.next
+        else:
+            break
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
+list_node1_1 = ListNode(1)
+list_node1_2 = ListNode(2)
+list_node1_3 = ListNode(4)
+list_node1_1.next = list_node1_2
+list_node1_2.next = list_node1_3
+
+list_node2_1 = ListNode(1)
+list_node2_2 = ListNode(3)
+list_node2_3 = ListNode(4)
+list_node2_1.next = list_node2_2
+list_node2_2.next = list_node2_3
+
 # 56ms. 
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
@@ -24,3 +46,5 @@ class Solution:
 
         sort_list.next = l1 or l2
         return head.next
+
+print_ListNode(Solution().mergeTwoLists(list_node1_1, list_node2_1))
