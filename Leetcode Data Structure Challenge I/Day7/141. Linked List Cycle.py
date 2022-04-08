@@ -74,6 +74,7 @@ class Solution:
             head=head.next
         return False
 
+## ....
 # ??다시해보기.
 # llist = Solution()
 # llist.head = ListNode(1)
