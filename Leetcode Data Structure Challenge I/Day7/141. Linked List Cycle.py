@@ -33,23 +33,23 @@
 
 
 # 2)
-# 56ms, 위에 코드의 거의 절반 속도!
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+# 52ms, 위에 코드의 거의 절반 속도!
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
 
-# from typing import Optional
-# class Solution:
-#     def hasCycle(self, head: Optional[ListNode]) -> bool:        
-#             curr = head
+from typing import Optional
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:        
+            curr = head
 
-#             while curr:
-#                 if curr.val is None:
-#                     return True
-#                 curr.val = None
-#                 curr = curr.next
-#             return False
+            while curr:
+                if curr.val is None:
+                    return True
+                curr.val = None
+                curr = curr.next
+            return False
 
 
 # 3)
