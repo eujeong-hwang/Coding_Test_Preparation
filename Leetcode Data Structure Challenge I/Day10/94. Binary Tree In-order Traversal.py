@@ -40,5 +40,3 @@ class Solution:
         result.append(root.val)
         self.helper(root.right, result)
 
-# 이것도 참고하기
-# https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/713539/Python-3-All-Iterative-Traversals-InOrder-PreOrder-PostOrder-Similar-Solutions
