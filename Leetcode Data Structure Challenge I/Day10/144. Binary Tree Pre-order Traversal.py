@@ -17,5 +17,18 @@ class TreeNode:
 
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
-        pass
 
+        if root is None:
+            return []
+
+        tree_1 = [root]
+        tree_2 = []
+        while tree_1:
+            N = tree_1.pop()
+            tree_2.append(N.val)
+            if N.right:
+                tree_1.append(N.right)
+            if N.left:
+                tree_1.append(N.left)
+            
+        return tree_2
