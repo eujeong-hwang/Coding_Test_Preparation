@@ -8,6 +8,8 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
+
+# (a) Inorder (Left, Root, Right)
 # iteratively
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
@@ -37,3 +39,6 @@ class Solution:
         self.helper(root.left, result)
         result.append(root.val)
         self.helper(root.right, result)
+
+# 이것도 참고하기
+# https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/713539/Python-3-All-Iterative-Traversals-InOrder-PreOrder-PostOrder-Similar-Solutions
