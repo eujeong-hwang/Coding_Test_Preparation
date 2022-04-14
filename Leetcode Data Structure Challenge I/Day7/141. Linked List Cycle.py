@@ -1,29 +1,29 @@
 #https://leetcode.com/problems/linked-list-cycle/
 
 # 1)
-# Using Floyd's Tortoise & Hare Algorithm
+# Using Floyd's Tortoise & Hare Algorithm, Two Pointers Technique
 # Definition for singly-linked list.
-# 유튜브 따라했는데.. Time complexity 가 O(n)이긴 하지만.. 그렇게 안 빠른듯
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+# 58ms 
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
 
-# class Solution:
-#     # def __init__(self):
-#     #     self.head = None
+class Solution:
+    # def __init__(self):
+    #     self.head = None
 
-#     def hasCycle(self, head: ListNode) -> bool:
-#         slow = fast = head
+    def hasCycle(self, head: ListNode) -> bool:
+        slow = fast = head
 
-#         # while fast and fast.next is not null
-#         while fast and fast.next:
-#             slow = slow.next
-#             fast = fast.next.next
+        # while fast and fast.next is not null
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
 
-#             if slow == fast:
-#                 return True
-#         return False
+            if slow == fast:
+                return True
+        return False
 
 # llist = Solution()
 # llist.head = ListNode(3)
@@ -33,7 +33,7 @@
 
 
 # 2)
-# 52ms, 위에 코드의 거의 절반 속도!
+# 52ms
 class ListNode:
     def __init__(self, x):
         self.val = x

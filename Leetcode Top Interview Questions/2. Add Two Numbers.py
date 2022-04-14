@@ -26,7 +26,7 @@ class ListNode:
 # two_num = Solution()
 # print(two_num.addTwoNumbers([2,4,3], [5,6,4]))                
 
-
+from typing import Optional
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         res = dummy = ListNode()
