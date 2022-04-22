@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/reverse-string/
 # Arpil 22, 2022
 
+# Two Pointers Technique
 from typing import List
 class Solution:
     def reverseString(self, s: List[str]) -> None:
@@ -12,3 +13,6 @@ class Solution:
             s[start],s[end]=s[end],s[start]
             start+=1
             end-=1
+
+rs = Solution()
+print(rs.reverseString(["h","e","l","l","o"]))
