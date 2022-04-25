@@ -7,7 +7,7 @@ class ListNode:
         self.val = val
         self.next = next
 
-# Two pointer technique
+# Two pointers technique
 # 27ms
 class Solution:
     def middleNode(self, head:ListNode) -> ListNode:
