@@ -7,6 +7,7 @@ class ListNode:
         self.val = val
         self.next = next
 
+# without dummy
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         f= s = head
